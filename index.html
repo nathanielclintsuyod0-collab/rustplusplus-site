@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d13">
+  <meta name="description" content="Rust++ is an offline coding assistant with deterministic tools, curated programming knowledge, and support for seven programming languages.">
+  <title>Rust++ — Offline Code Assistant</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#" aria-label="Rust++ home">
+      <span class="brand-icon">R<small>++</small></span>
+      <span><b>Rust++</b><small>OFFLINE CODE ASSISTANT</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav id="nav-links">
+      <a href="#features">Features</a><a href="#downloads">Downloads</a><a href="#release-notes">Release notes</a>
+      <a class="nav-github" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> BUILT FOR OFFLINE DEVELOPMENT</div>
+        <h1>Build. Code.<br><em>Improve.</em> Anywhere.</h1>
+        <p class="lead">A deterministic coding assistant for your workflow. Create, inspect, and improve code with built-in tools — no generative AI required.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#downloads">Get Rust++ <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus" target="_blank" rel="noreferrer">Explore source ↗</a>
+        </div>
+        <div class="trust-row"><span>✓ No AI APIs</span><span>✓ Local-first</span><span>✓ 7 languages</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div>
+        <div class="app-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>RUST++ / CODE WORKSPACE</span><b><i></i> OFFLINE ENGINE</b></div>
+          <div class="window-body">
+            <aside><div class="mini-brand">R<span>++</span></div><div class="side-active">▣ &nbsp; Code editor</div><div>✦ &nbsp; Assistant</div><div>ⓘ &nbsp; About Rust++</div></aside>
+            <div class="mock-main"><div class="mock-title">YOUR CODING WORKSPACE</div><h2>Build something<br><em>brilliant.</em></h2><div class="mock-tools"><span>C++ ▾</span><b>＋ Template</b><b>Explain</b><b>Check code</b></div><div class="mock-grid"><div class="mock-editor"><div class="mock-tabs">● &nbsp; main.cpp</div><pre><span>1</span>  #include &lt;iostream&gt;
+<span>2</span>
+<span>3</span>  int main() {
+<span>4</span>      std::cout &lt;&lt; "Hello!";
+<span>5</span>      return 0;
+<span>6</span>  }</pre></div><div class="mock-result"><b>Rust++ results</b><hr><small>BUILT-IN RULES</small><h3>Ready when you are</h3><p>Generate a starter, explain a language, or check your source code.</p></div></div><div class="mock-output"><b>OUTPUT</b><span>PROBLEMS</span><p>Workspace initialized. Ready for your next project.</p></div></div>
+          </div>
+        </div>
+        <div class="phone-card"><div class="phone-speaker"></div><div class="phone-logo">R<small>++</small></div><b>Rust++</b><small>OFFLINE CODE ASSISTANT</small><div class="phone-line"></div><span>Build. Code. Improve.</span><em>Anywhere.</em><div class="phone-button">Get started</div></div>
+        <div class="float-chip chip-one">✦ &nbsp; Deterministic tools</div><div class="float-chip chip-two">⌘ &nbsp; Local workspace</div>
+      </div>
+    </section>
+
+    <section class="language-strip wrap">
+      <span>ONE WORKSPACE</span><b>C++</b><b>Rust</b><b>Python</b><b>JavaScript</b><b>Java</b><b>C#</b><b>Lua</b>
+    </section>
+
+    <section class="features section wrap" id="features">
+      <div class="section-heading"><div class="eyebrow">WHAT'S INSIDE</div><h2>Tools that keep you<br><em>in control.</em></h2><p>Practical coding utilities built around explicit rules, templates, and curated knowledge.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">&lt;/&gt;</div><h3>Multi-language editor</h3><p>Work across seven programming languages in one code workspace.</p></article>
+        <article class="feature-card"><div class="feature-icon">✦</div><h3>Deterministic assistant</h3><p>Get explanations and known-error guidance from built-in rules and curated notes.</p></article>
+        <article class="feature-card"><div class="feature-icon">✓</div><h3>Code validation</h3><p>Run lightweight structural checks to help spot common source issues.</p></article>
+        <article class="feature-card"><div class="feature-icon">▱</div><h3>File management</h3><p>Open, edit, and save source files in the native application.</p></article>
+        <article class="feature-card"><div class="feature-icon">⚡</div><h3>Local-first design</h3><p>Core tools are designed to work locally without AI services.</p></article>
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3>One focused workspace</h3><p>Keep your code, assistant results, output, and problems close together.</p></article>
+      </div>
+      <p class="disclaimer">Note: built-in validation is lightweight structural checking, not a replacement for a language compiler or interpreter. Program execution availability depends on the installed app build.</p>
+    </section>
+
+    <section class="downloads section" id="downloads">
+      <div class="wrap">
+        <div class="section-heading centered"><div class="eyebrow">GET THE APP</div><h2>Choose your <em>platform.</em></h2><p>Install Rust++ on your device. Downloads become available when a release is published on GitHub.</p></div>
+        <div class="download-grid">
+          <article class="download-card" data-platform="windows"><div class="platform-icon windows-icon">▦</div><div><h3>Windows</h3><p>Desktop installer</p><small class="asset-status">Checking latest release…</small></div><a class="download-link" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus/releases" target="_blank" rel="noreferrer">View releases ↗</a></article>
+          <article class="download-card" data-platform="android"><div class="platform-icon android-icon">●</div><div><h3>Android</h3><p>APK package</p><small class="asset-status">Checking latest release…</small></div><a class="download-link" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus/releases" target="_blank" rel="noreferrer">View releases ↗</a></article>
+          <article class="download-card" data-platform="mac"><div class="platform-icon apple-icon">◉</div><div><h3>macOS</h3><p>Desktop package</p><small class="asset-status">Planned</small></div><a class="download-link" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus/releases" target="_blank" rel="noreferrer">View releases ↗</a></article>
+          <article class="download-card" data-platform="ios"><div class="platform-icon ios-icon">▯</div><div><h3>iOS</h3><p>iPhone and iPad</p><small class="asset-status">Planned</small></div><a class="download-link" href="https://ins.seraphyx.fun" target="_blank" rel="noreferrer">Use web version ↗</a></article>
+        </div>
+        <div class="release-banner"><div><span class="eyebrow">LATEST RELEASE</span><h3 id="release-title">No published release detected</h3><p id="release-description">The download links will update automatically when a GitHub release is available.</p></div><a id="all-releases" href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus/releases" target="_blank" rel="noreferrer">All releases ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section wrap release-notes" id="release-notes">
+      <div class="section-heading"><div class="eyebrow">STAY UP TO DATE</div><h2>What's <em>new?</em></h2><p>Release notes are retrieved from the project's GitHub releases.</p></div>
+      <div id="release-list" class="release-list"><div class="release-item"><span class="release-dot"></span><div><b>Waiting for the first release</b><p>Published version notes will appear here automatically.</p></div></div></div>
+    </section>
+
+    <section class="cta wrap"><div><div class="eyebrow">READY WHEN YOU ARE</div><h2>Your next project<br>starts <em>here.</em></h2></div><a class="button button-primary" href="#downloads">Download Rust++ ↓</a></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#"><span class="brand-icon">R<small>++</small></span><span><b>Rust++</b><small>OFFLINE CODE ASSISTANT</small></span></a><div class="footer-links"><a href="https://github.com/nathanielclintsuyod0-collab/RustPlusPlus">GitHub</a><a href="https://ins.seraphyx.fun">Web version</a><a href="#downloads">Downloads</a></div><small>© <span id="year"></span> Rust++. Built for offline development.</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
